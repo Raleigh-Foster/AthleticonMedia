@@ -1,0 +1,115 @@
+
+
+
+#footer{
+
+width:100%;
+text-align:center;
+}
+
+
+
+
+body {
+color: #DDDDFF;
+margin: 0;
+padding: 0;
+background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color: #282828;
+background-size: 16px 16px;
+
+}
+
+header {
+text-align: center;
+padding-top: 10px;
+}
+
+aside {
+height: 35%;
+width: 40%;
+border: 1px solid black;
+text-align:center;
+float: left;
+position: relative;}
+
+.bodyArea {
+margin: 0 auto;
+width:200px;
+left: calc(50%-100px);
+position:relative;
+border:1px;
+}
+
+button {
+display:block;
+width: 100%;
+padding-top: 10%;
+padding-bottom:10%;
+}
+
+a:link {
+color: #DDDDFF;
+}
+
+a:visited {
+color: #DDDDFF;
+}
+
+nav {
+width: 100%;
+
+}
+
+.navMenu {
+width:25%;
+min-width:100px;
+text-align:center;
+float:left;
+position:relative;
+}
+.navMenu2 {
+width:50%;
+min-width:100px;
+text-align:center;
+float:left;
+position:relative;
+}
+.navMenu3 {
+width:50%;
+min-width:100px;
+text-align:center;
+float:left;
+position:relative;
+}
+.navMenu5 {
+width:10%;
+min-width:100px;
+text-align:center;
+float:left;
+position:relative;
+}
+.navMenu4 {
+width:50%;
+min-width:100px;
+text-align:center;
+float:left;
+position:relative;
+}
+
+.metal {
+    background-color: #A5A5A5;
+    color: #000;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(102, 102, 102, 0.5), 0 2px 1px rgba(255, 255, 255, 0.6);
+}
+
+.metal.linear {
+	font-size: 2em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+html {
+  overflow-y: scroll;
+}
